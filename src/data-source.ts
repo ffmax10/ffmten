@@ -11,7 +11,7 @@ export const getDataSourceOptions = (
 
   return {
     type: 'mysql',
-    host: configService.get<string>('DB_HOST') || "34.227.151.202",
+    host: configService.get<string>('DB_HOST') || "3.83.97.48",
     port: typeof port === 'number' ? port : 3306, // Use 3306 as a default if port is undefined or not a number
     username: configService.get<string>('DB_USER') || 'root',
     password: configService.get<string>('DB_PASSWORD') || 'root',
